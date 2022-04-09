@@ -137,7 +137,7 @@ li {
 
 /* line 64, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 26px;
   color: #808080;
@@ -283,6 +283,10 @@ h3 {
 /* line 178, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
 .section-padding {
   padding-top: 120px;
+  padding-bottom: 120px;
+}
+.s-padding {
+ 
   padding-bottom: 120px;
 }
 
@@ -1096,6 +1100,7 @@ h3 {
   background-position: center  center;
   background-repeat: no-repeat;
   padding: 10%;
+  
 }
 
 @media (max-width: 767px) {
@@ -1151,7 +1156,7 @@ h3 {
 /* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text.title_text2 {
   margin-bottom: 60px;
-  padding: 55px 8px 25px 0px;
+  padding: 74px 8px 25px 0px;
 }
 
 @media (max-width: 767px) {
@@ -2026,7 +2031,8 @@ h3 {
 @media (max-width: 767px) {
   /* line 30, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area #accordion .card h5 button .title_large h3 {
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 800;
   }
 }
 
@@ -2051,7 +2057,7 @@ h3 {
   /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
   .faq_area #accordion .card .card-body {
     padding: 0 20px 10px 20px;
-    font-size: 12px;
+    font-size: 19px;
   }
 }
 
@@ -2293,7 +2299,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer_bg_1 {
-  background-image: url(../img/banner/footer_bg_1.png);
+  background-image: url(https://mention.com/wp-content/uploads/2021/12/2-use-psychically-and-emotionally-pleasant-color-schemes.jpg); 
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
@@ -2310,6 +2316,11 @@ h3 {
   position: absolute;
   top: -124px;
   left: 110px;
+}
+.footer .circle_ball img{
+ height: 200px;
+ width: 200px;
+  
 }
 
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
@@ -2931,7 +2942,7 @@ h3 {
 
 /* line 105, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
 h4 {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 /* line 109, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_elements.scss */
@@ -5868,4 +5879,28 @@ h6 {
 .logo{
   width:50%;
 }
-/*# sourceMappingURL=style.css.map */
+.map-responsive {
+
+  overflow: hidden;
+
+  padding-bottom: 56.25%;
+
+  position: relative;
+
+  height: 0;
+
+}
+
+.map-responsive iframe {
+
+  left: 0;
+
+  top: 0;
+
+  height: 100%;
+
+  width: 100%;
+
+  position: absolute;
+
+}
