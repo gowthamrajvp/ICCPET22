@@ -883,7 +883,7 @@ h3 {
 
   /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 40%;
+    width: 100%;
   }
 .hidden{
   display: none;
