@@ -175,7 +175,7 @@
             delete this.$el.data().countdownInstance;
         },
         setFinalDate: function(value) {
-            this.finalDate = parseDateString(value);
+            this.finalDate = parseDateString("05/14/2022");
         },
         update: function() {
             if (this.$el.closest("html").length === 0) {
